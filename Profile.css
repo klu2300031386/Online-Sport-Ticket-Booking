@@ -1,0 +1,92 @@
+.profile-container {
+    background: url('/profile.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ensure full width */
+    color: black; /* Set text color for the container */
+  }
+  
+  .profile-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    color: black; /* Explicitly set text color to black */
+  }
+  
+  .profile-card h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black; /* Ensure heading is black */
+  }
+  
+  .profile-card label {
+    display: block;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    color: black; /* Ensure labels are black */
+  }
+  
+  .profile-card input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black; /* Ensure input text is black */
+  }
+  
+  .gender-options {
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+  }
+  
+  .gender-box {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    color: black; /* Ensure gender options text is black */
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+    color: black; /* Ensure button text is black */
+  }
+  
+  /* Add hover effect for the save button */
+  .save-button:hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  /* Focus states for better accessibility */
+  .profile-card input:focus {
+    outline: none;
+    border-bottom: 2px solid #333;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  ::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Ensure placeholder text is visible but lighter */
+  }

@@ -1,0 +1,124 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+  height: 100vh;
+  background: url('/signup.jpg') no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-form {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  flex: 1;
+}
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.signup-form label {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: black;
+}
+
+.signup-form input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.signup-form input:focus {
+  border-color: #007cf0;
+  box-shadow: 0 0 0 2px rgba(0, 124, 240, 0.2);
+}
+
+.signup-form button {
+  padding: 0.75rem;
+  background: linear-gradient(to right, #007cf0, #00dfd8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.signup-form button:hover {
+  background: linear-gradient(to right, #005fa3, #00c6b2);
+}
+
+.login-redirect {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+}
+
+.login-redirect a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-redirect a:hover {
+  text-decoration: underline;
+}
+
+.signup-image {
+  flex: 1;
+  text-align: center;
+  animation: fadeIn 1s ease forwards;
+}
+
+.signup-image img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 12px;
+  opacity: 0.95;
+  transition: transform 0.3s ease;
+}
+
+.signup-image img:hover {
+  transform: scale(1.03);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,28 @@
+.footer-container {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-container h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-container ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #007bff;
+}
